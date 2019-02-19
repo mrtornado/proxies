@@ -6,15 +6,15 @@ import MenuItem from '../navbar/secondaryMenuItem';
 import Preamble from '../generic/preamble';
 
 // Constants
-import { SITE_URL } from '../../settings';
+import {SITE_URL} from '../../settings';
 
 interface Props {
-	children: any,
-	btnText: string,
-	title: string
+	children: any;
+	btnText: string;
+	title: string;
 }
 
-const ProductsHero = ({ children, title, btnText }: Props) => (
+const ProductsHero = ({children, title, btnText}: Props) => (
 	<main className="products-hero">
 		<NavBar MenuItem={MenuItem} />
 
@@ -24,9 +24,7 @@ const ProductsHero = ({ children, title, btnText }: Props) => (
 			</Preamble>
 
 			<div className="text-center">
-				<a
-					href={SITE_URL}
-					className="btn btn--green btn--lg">
+				<a href={SITE_URL} className="btn btn--green btn--lg">
 					{btnText}
 				</a>
 			</div>
