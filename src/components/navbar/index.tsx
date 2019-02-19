@@ -125,7 +125,7 @@ class NavBar extends React.Component<Props, State> {
 						>
 							<NavItem>
 								<NavLink
-									href={SITE_URL}
+									href={'https://myaccount.buy-proxy.net/'}
 									className="text-uppercase nav-link__cta rounded"
 								>
 									Buy now
